@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;  
+    box-sizing: border-box;
+}
+.alerta{
+    margin: auto;
+    margin-top: 10px;
+    color: #000;
+    font-family: "montserrat";
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 90vw;
+    border-left: 5px solid #ff8e3df9;
+    padding: 10px;  
+    box-shadow: 2px 2px 0 0 #0004;
+}
+.alerta:hover{
+    color: #000;
+    transition: 0.4s all;
+    transform: scaleX(1.005) scaleY(1.005);
+    box-shadow: 5px 5px 0 0 #0004;
+}
+.alerta p{
+    font-weight: 100;
+}
+.alerta h2{
+    font-weight: 500;
+}
+.form{
+    box-sizing: border-box;
+    text-align: center;
+}
+.form input{
+    margin: 10px;
+    border: none;
+    padding: 6px 10px;
+    width: 300px;
+    border-left: 8px solid #ff8e3df9;
+    border-top-left-radius: 5px;
+    box-shadow: 1px 1px 0 0 #0001;
+}
+.form input:hover{
+    transition: 0.4s all;
+    transform: scaleX(1.002) scaleY(1.002);
+    box-shadow: 2px 2px 0 0 #0002;
+}
+.form input:focus{
+    outline: none;
+    transition: 0.4s all;
+    transform: scaleX(1.005) scaleY(1.005);
+    box-shadow: 4px 4px 0 0 #0004;
+}
+.formulario-cont h2{
+    font-family: "montserrat";
+    font-weight: 500;
+    text-align: center;
+}
+.form {
+    font-family: "montserrat";
+}
+.titulos{
+    font-family: "montserrat";
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    color: #fff;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-color{
+    width: 100%;
+    height: 90%;
+    background: #000a;
+}
+.titulos h1{
+    margin: auto;
+    font-size: 80px;
+}
+.titulos h2{
+    margin: auto;
+    font-weight: 500;
+}
+.bg-img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("https://resizer.glanacion.com/resizer/v2/el-dia-internacional-del-programador-se-celebra-VQV3UUONR5EJNJUGNXZF2IGP3A.jpg?auth=090a49b5ceca8f981a102997d13190656d6cccefc17023f7f4048ffd39bdcc68&width=880&height=586&quality=70&smart=true") fixed;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+a{
+    border: 2px solid #999;
+    color: #000;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
